@@ -1,0 +1,18 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Build output
+**/bin/
+**/obj/
+
+# Local databases
+*.mdf
+*.ldf
+
+# Environment and secret files
+.env
+.env.*
+!.env.example
+secrets.json
